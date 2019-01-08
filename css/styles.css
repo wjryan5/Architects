@@ -1,10 +1,4 @@
-/** {
-    margin:0;
-    padding:0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-} */
+
 body {
     width: 100%;
     height: 100%;
@@ -21,6 +15,50 @@ body {
     background-color: #222;
     text-align: center;
 }
+h1 {
+  color: white;
+
+}
+h1.ED {
+  float: left;
+}
+h1.AW {
+  float: right;
+}
+h1.AL {
+  float: left;
+
+}
+h1.TS {
+  float:right;
+}
+img.ED {
+  width:25%;
+  height:25%;
+  float: left; 
+}
+img.AW {
+  width:25%;
+  height:25%;
+  float: right;
+}
+img.AL {
+  width:15%;
+  height:15%;
+  float: left;
+}
+img.TS{
+  width:25%;
+  height:25%;
+  float: right;
+}
+.columnone{
+float:left;
+}
+.columntwo{
+  float:right;
+}
+
 /* Navbar */
 ul {
     list-style-type: none;
@@ -79,6 +117,7 @@ input[type=text], select, textarea {
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    color: white
   }
   
   input[type=submit] {
@@ -97,7 +136,7 @@ input[type=text], select, textarea {
     
   .container-ml {
     border-radius: 5px;
-    background-color: #c5cddb;
+    background-color: black;
     padding: 20px;
   }
   
