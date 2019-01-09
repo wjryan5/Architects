@@ -6,7 +6,7 @@ padding:0;
 
 body{
   background-image: url(../assets/paper2.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 100%;
   width: 100%;
   font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -83,6 +83,8 @@ body{
 /* Heading Styling */ 
 h1 {
   color: white;
+  font-size: 175%;
+  text-align: center;
 
 }
 h1.ED {
@@ -100,8 +102,8 @@ h1.TS {
 }
 /* CSS for images on Biography page */
 img.ED {
-  width:25%;
-  height:25%;
+  width:20%;
+  height:20%;
   float: left; 
 }
 img.AW {
@@ -113,18 +115,18 @@ img.AL {
   width:15%;
   height:15%;
   float: left;
+  margin-right: 350px;
 }
 img.TS{
-  width:25%;
-  height:25%;
+  width:20%;
+  height:20%;
   float: right;
 }
 
 .columnone{
-float:left;
 }
 .columntwo{
-  float:right;
+  float: left
 }
 
 /* CSS for Biography buttons */
@@ -135,28 +137,28 @@ color: white;
 .myBtnED {
   color: white;
   float: left;
-  font-size: 25px;
+  font-size: 150%;
   text-decoration: underline;
 }
 
 .myBtnAW {
   color: white;
   float: right;
-  font-size: 25px;
+  font-size: 150%;
   text-decoration: underline;
 }
 
 .myBtnAL {
   color: white;
   float: left;
-  font-size: 25px;
+  font-size: 150%;
   text-decoration: underline;
 }
 
 .myBtnTS {
   color:white;
   float:right;
-  font-size: 25px;
+  font-size: 150%;
   text-decoration: underline;
 }
 /* Modal Boxes */
@@ -255,7 +257,7 @@ p {
 /* Form */
 
 input[type=text], select, textarea {
-    width: 99%;
+    width: 65%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
