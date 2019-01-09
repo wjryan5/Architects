@@ -28,7 +28,6 @@
       $(".myBtnED").click(function () 
       {
           $(".overlayED").show();
-          setTimeout(function () { $(".overlayED").hide(); }, 15000);
       });
   
       $(".close").click(function () 
@@ -44,7 +43,6 @@
    $(".myBtnAL").click(function () 
    {
        $(".overlayAL").show();
-       setTimeout(function () { $(".overlayAL").hide(); }, 15000);
    });
 
    $(".close").click(function () 
@@ -60,7 +58,6 @@ $(document).ready(function ()
    $(".myBtnAW").click(function () 
    {
        $(".overlayAW").show();
-       setTimeout(function () { $(".overlayAW").hide(); }, 15000);
    });
 
    $(".close").click(function () 
@@ -76,7 +73,6 @@ $(document).ready(function ()
    $(".myBtnTS").click(function () 
    {
        $(".overlayTS").show();
-       setTimeout(function () { $(".overlayTS").hide(); }, 15000);
    });
 
    $(".close").click(function () 
